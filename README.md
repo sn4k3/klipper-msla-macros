@@ -68,6 +68,8 @@ variable_print_end_park_z: "max"
 variable_print_resume_delay: 4000
 gcode: # This line is required by Klipper.
 # Any code you put here will run at klipper startup, after the initialization for these macros. 
+
+[include klipper-msla-macros/*.cfg]
 ```
 
 # Troubleshooting
