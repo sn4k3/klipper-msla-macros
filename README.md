@@ -70,6 +70,7 @@ gcode: # This line is required by Klipper.
 # Any code you put here will run at klipper startup, after the initialization for these macros. 
 
 [include klipper-msla-macros/*.cfg]
+#[include klipper-msla-macros/tmc_safe_home.cfg] # Use if you use UART TMC2208 or TMC2209 for safe home current
 ```
 
 # Troubleshooting
